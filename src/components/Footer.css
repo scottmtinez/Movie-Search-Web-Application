@@ -1,0 +1,9 @@
+.footer{
+    background-color: orange;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

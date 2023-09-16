@@ -1,3 +1,7 @@
+*{
+  background-color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-landscape-container{
+  margin: 0 auto;
+  width: 99%;
+  height: 400px;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-image: url('https://images.hdqwalls.com/wallpapers/the-batman-movie-poster-art-5k-ex.jpg');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 2000px;
+}
+
+.movie-name-list, .what-to-watch-movie-list, .in-theaters-movie-list{
+  display: flex;
+}
+
+.featured-movie-item, .what-to-watch-movie-item, .in-theaters-movie-item, .in-theaters-movie-item{
+  margin-top: 15px;
+  border: solid black 2px;
+  width: 19%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
 }
