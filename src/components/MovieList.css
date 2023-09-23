@@ -1,0 +1,23 @@
+.movieList-container{
+    margin: 0 auto;
+    margin: 5px;
+    position: relative;
+	transition: transform 0.2s;
+}
+
+.movieList-container:hover{
+    cursor: pointer;
+	transform: scale(1.05);
+}
+
+.movieList-container:hover .overlay{
+    opacity: 1;
+}
+
+.add-to-favorites{
+  color: black;
+}
+
+.add-to-favorites:hover{
+    color: red;
+}

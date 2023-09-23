@@ -36,3 +36,7 @@
   .nav-link:hover {
     border-bottom: 2px solid orange;
   }
+
+  .nav-item-search{
+    border-radius: 5px;
+  }

@@ -1,0 +1,36 @@
+.movie-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie-list-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 10px; /* Adjust the gap between movies */
+  }
+  
+  .movieList-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+  }
+  
+  .movieList-container img {
+    max-width: 100%;
+  }
+  
+  .add-to-favorites {
+    background-color: #eee;
+    margin-top: -10%;
+    padding: 10px;
+  }
+
+  .searchBox-container{
+    margin-bottom: 15px;
+  }
+
+  .movie-title{
+    font-size: 48px;
+  }

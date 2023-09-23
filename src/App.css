@@ -65,3 +65,151 @@
   border-radius: 10px;
   margin: 0 auto;
 }
+
+.featured-movie-item1, .featured-movie-item2, .featured-movie-item3, .featured-movie-item4, .featured-movie-item5{
+  margin-top: 15px;
+  border: solid black 2px;
+  width: 19%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.featured-movie-item1{
+  background-image: url("https://lh6.googleusercontent.com/B0uQRPzgf2AX6EVvlqNWwV7ql2-TbAuWbJcnkHuC_uzEtG0viA6__4_v-bfdas4iM8MqIm8wcoDeaLRxugVFycbVvaelnagmzAsH9-ug-y0X2BxvEjFfhavM_fvWHDEnNKBFamG9=s0");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 350px;
+  max-width: 350px;
+}
+
+.featured-movie-item2{
+  background-image: url("https://1847884116.rsc.cdn77.org/tamil/gallery/movies/skyscraper/main.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 400px;
+  max-width: 350px;
+}
+
+.featured-movie-item3{
+  background-image: url("https://wallpapercave.com/wp/wp1934740.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.featured-movie-item4{
+  background-image: url("https://www.tallengestore.com/cdn/shop/products/TheDeparted-LeonardoDiCaprioJackNicholson-MartinScorseseHollywoodEnglishMoviePoster_c10f33a9-f625-441a-bb73-334e9ef5dc99.jpg?v=1600761999");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.featured-movie-item5{
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/037/636/465/large/andres-mencia-e6d693ce-a635-425f-811b-9354846b0e31-rw-1920.jpg?1620903148");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 400px;
+  max-width: 350px;
+}
+
+.what-to-watch-movie-item1, .what-to-watch-movie-item2, .what-to-watch-movie-item3, .what-to-watch-movie-item4, .what-to-watch-movie-item5{
+  margin-top: 15px;
+  border: solid black 2px;
+  width: 19%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.what-to-watch-movie-item1{
+  background-image: url("https://images.thedirect.com/media/article_full/investor39.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.what-to-watch-movie-item2{
+  background-image: url("https://ntvb.tmsimg.com/assets/p20056_v_h10_bh.jpg?w=960&h=540");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.what-to-watch-movie-item3{
+  background-image: url("https://ntvb.tmsimg.com/assets/p15791706_v_h8_ai.jpg?w=1280&h=720");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.what-to-watch-movie-item4{
+  background-image: url("https://i0.wp.com/popculturemaniacs.com/wp-content/uploads/2021/09/venom-2018-thumpnail.png?fit=800%2C420&ssl=1");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 380px;
+  max-width: 350px;
+}
+
+.what-to-watch-movie-item5{
+  background-image: url("https://greenhouse.hulu.com/app/uploads/sites/11/rocket-man-title-art.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.in-theaters-movie-item1, .in-theaters-movie-item2, .in-theaters-movie-item3, .in-theaters-movie-item4, .in-theaters-movie-item5{
+  margin-top: 15px;
+  border: solid black 2px;
+  width: 19%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.in-theaters-movie-item1{
+  background-image: url("https://wallpapercave.com/wp/wp11928890.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.in-theaters-movie-item2{
+  background-image: url("https://wallpapercave.com/wp/wp12698448.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.in-theaters-movie-item3{
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZDGXXhbcABLxd95unMkIcDZ0-V_PImOrPfkbk6G-swouqLHJzF9Y5bMYcONXkJHJJaszeuOCjdSOkS_QD_KKKHavOriiJgYpOMj03yZ2YBr6v4GOlv8cevPxZM7Zs16gaCqxihQNwMC7fnvo2b2FkH-AR8Msq5VfI92jGcdKXDZJmKem8a1jXNi3eRA/s1600/meg-2-the-trench-release-details-and-preview.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.in-theaters-movie-item4{
+  background-image: url("https://m.media-amazon.com/images/S/pv-target-images/33e33fd772cd7f1ff56d0e03772d5abb9c46649748286cd3d333814cd97aea1e.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+
+.in-theaters-movie-item5{
+  background-image: url("https://images.lifestyleasia.com/wp-content/uploads/sites/3/2023/07/25190504/a-haunting-in-venice-e1689924974577.jpeg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 360px;
+  max-width: 350px;
+}
+

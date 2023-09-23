@@ -5,6 +5,7 @@ import Home from './Home';
 import Movies from './Movies';
 import Favorites from './Favorites';
 import Account from './Account';
+import SearchBox from './SearchBox';
 
 function navBar(){
     return (
@@ -31,19 +32,3 @@ function navBar(){
 };
 
 export default navBar;
-
-/*
-        <Router>
-            <div>
-                <nav className='NavBar-Container'>
-                    <ul className='nav-list'>
-                        <li className='title'>Movie Insider</li>
-                        <li className='nav-item'><Link className='nav-link' to="/">Home</Link></li>
-                        <li className='nav-item'><Link className='nav-link' to="/movies">Movies</Link></li>
-                        <li className='nav-item'><a className="nav-link" href='#'>Favorites</a></li>
-                        <li className='nav-item'><a className="nav-link" href='#'>Account</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </Router>
-*/
