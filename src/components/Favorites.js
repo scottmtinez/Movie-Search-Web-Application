@@ -3,7 +3,10 @@ import React from 'react';
 function Favorites(){
 
     return (
-        <h1>Favorites Test</h1>
+        <div className='myAccount-container'>
+            <h1>Favorite Movies</h1>
+            
+        </div>
     );
 }
 

@@ -1,6 +1,13 @@
+.account-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .login-container{
     width: 300px;
-    height: 150px;
+    height: 250px;
     background-color: orange;
     margin: 0 auto;
     border-radius: 10px;
@@ -9,30 +16,31 @@
 .login-form{
     background-color: transparent;
     font-weight: bold;
-    
 }
 
 .login-title{
     background-color: transparent;
+    padding-top: 10px;
 }
 
-.login-username{
+.login-username, .login-password{
     background-color: white;
     border-radius: 5px;
-}
-
-.login-password{
-    background-color: white;
-    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 5px;
 }
 
 .login-submit{
     border-radius: 5px;
 }
 
+.login-submit:hover{
+    background-color: lightgrey;
+}
+
 .signup-container{
     width: 300px;
-    height: 300px;
+    height: 210px;
     background-color: orange;
     margin: 0 auto;
     border-radius: 10px;
@@ -45,8 +53,70 @@
 
 .signup-title{
     background-color: transparent;
+    padding-top: 10px;
 }
 
 .signup-submit{
+        border-radius: 5px;
+}
+
+.signup-submit:hover{
+    background-color: lightgrey;
+}
+
+.signup-username, .signup-password, .signup-email{
+    background-color: white;
     border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+.signup-link, .login-link{
+    background-color: transparent;
+    text-decoration: none;
+    color: purple;
+    font-size: 10px;
+}
+
+.signup-link-btn, .login-link-btn{
+    background-color: transparent;
+    text-decoration: none;
+    border: solid 2px purple;
+    border-radius: 5px;
+    color: purple;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.signup-link-btn:hover, .login-link-btn:hover{
+    background-color: rgb(200, 130, 0);
+}
+
+
+.activeColor{
+    height: 30px;
+    width: 17%;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.pointer{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#login_name{
+    background-color: transparent;
+}
+
+#signup_name{
+    background-color: transparent;
 }
